@@ -38,7 +38,7 @@ class CLILiteApp(App):  # type: ignore
         """Quits the program."""
         self.exit()
 
-    @on(Button.Pressed, "#quit") # type: ignore
+    @on(Button.Pressed, "#quit")  # type: ignore
     def button_quit_pressed(self) -> None:
         """Quits the program."""
         self.exit()
